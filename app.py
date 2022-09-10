@@ -39,4 +39,4 @@ def submit():
         return 'try again'
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
