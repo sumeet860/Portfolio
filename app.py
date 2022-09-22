@@ -1,19 +1,21 @@
 
-from flask import Flask, url_for, redirect, render_template, request
+
+from flask import Flask, url_for, redirect, render_template, request, flash
 import csv
 
 app = Flask(__name__)
 
+# app.config['SECRET_KEY'] = 'secret key'
+# app.config['MYSQL_HOST'] = 'localhost'
+# app.config['MYSQL_USER'] = 'root'
+# app.config['MYSQL_PASSWORD'] = ''
+# app.config['MYSQL_DB'] = 'flask'
+
 
 @app.route('/')
 def home():
+    # flash("This is a flashed message")
     return render_template('index.html')
-
-
-@app.route('/index.html')
-def index():
-    return render_template('index.html')
-
 
 
 def write_csv(data):
@@ -37,6 +39,7 @@ def submit():
             return 'Form not submitted'
     else:
         return 'try again'
+
 
 if __name__ == "__main__":
     app.run()
