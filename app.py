@@ -29,6 +29,10 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/index')
+def home():
+    return render_template('index.html')
+
 
 def write_csv(data):
     with open('database.csv', mode='a', newline='') as database:
