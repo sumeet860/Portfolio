@@ -1,20 +1,32 @@
 
-
 from flask import Flask, url_for, redirect, render_template, request, flash
 import csv
+from flask_wtf import FlaskForm
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired
 
 app = Flask(__name__)
 
-# app.config['SECRET_KEY'] = 'secret key'
+
+app.config['SECRET_KEY'] = 'This is my secret key'
 # app.config['MYSQL_HOST'] = 'localhost'
 # app.config['MYSQL_USER'] = 'root'
 # app.config['MYSQL_PASSWORD'] = ''
 # app.config['MYSQL_DB'] = 'flask'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://hqnsnpalmqpsjj:b4360cf721f93e8077fd5e161840054b7ff1772fae0ffb9c05825425be73ed6d@ec2-34-231-42-166.compute-1.amazonaws.com:5432/dfivgdppfdth1r'
+
+
+# Form Class
+
+class SubmitForm(FlaskForm):
+    email = StringField(validators=[DataRequired()])
+    subject = StringField(validators=[DataRequired()])
+    message = StringField(validators=[DataRequired()])
+
 
 
 @app.route('/')
 def home():
-    # flash("This is a flashed message")
     return render_template('index.html')
 
 
