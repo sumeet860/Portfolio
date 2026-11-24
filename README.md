@@ -1,51 +1,72 @@
-# Sumeet Kumar Singh — Data & Engineering
+# Sumeet Kumar Singh | Data Analytics & Engineering
 
-Personal portfolio highlighting operational analytics, reporting automation and a transition toward Data Engineering.
+Data Analyst focused on transforming operational data into actionable business insights, automating reporting workflows and developing reliable analytical solutions.
 
-[Visit the portfolio](https://sumeet860.github.io/Portfolio/)
+[**Explore my live portfolio**](https://sumeet860.github.io/Portfolio/)
 
-## About
+## Professional Profile
 
-I'm Sumeet Kumar Singh, a Data Analyst based in India. I work with Python, SQL and Power BI to build repeatable reporting workflows, analytical models and stakeholder dashboards. My experience includes Fuso Tech Centre India, Axiscades Engineering Technologies and Tata Consultancy Services.
+Experienced in operational analytics, business intelligence, KPI monitoring, data modelling and reporting automation. I use SQL, Python and Power BI to solve business problems and support data-driven decision-making.
 
-I'm developing toward Data Engineering and BI Engineering roles, with exposure to Databricks and the Data Harmonization Framework, and database/application practice through RoamFlow.
+Currently expanding my capabilities in Data Engineering, ETL pipelines, Microsoft Fabric, Databricks and database architecture.
 
-## Featured work
+## Business Impact
 
-- **Delivery lifecycle analytics:** professional case study covering on-time delivery improvement from 49% to 78%, supported by analytics and wider operational teamwork.
-- **Backlog and reporting automation:** separate professional outcomes covering approximately 62% backlog reduction and reporting execution reduced from 8 hours to 2 hours.
-- **RoamFlow:** personal travel planning application in development, using Python, PostgreSQL, SQLite and Docker.
+| Achievement | Outcome |
+| --- | --- |
+| On-time delivery improvement | 49% → 78% |
+| Workshop backlog reduction | Approximately 62% |
+| Reporting automation | 8 hours → 2 hours (75% time reduction) |
 
-Employer records and source code remain confidential. Professional outcomes are resume-reported case studies; RoamFlow is ongoing personal work.
+These professional outcomes were supported by analytics, reporting improvements and collaboration with operational teams.
 
-## Website
+## Technical Skills
 
-A responsive static HTML page with embedded CSS. No build step, backend, database or JavaScript framework is required.
+| Category | Technologies |
+| --- | --- |
+| Data Analytics | SQL, Python, Excel |
+| Business Intelligence | Power BI, DAX, Power Query |
+| Data Engineering | ETL, Microsoft Fabric, Databricks (exposure) |
+| Databases | PostgreSQL, SQLite |
+| Development Tools | Git, GitHub, Docker |
+| Core Competencies | Data modelling, data quality, KPI analytics, reporting automation |
 
-- Editorial palette: ivory `#F4F0E8`, burgundy `#682D3C`, copper `#B97850`, charcoal `#25272A`.
-- About, selected work, toolkit, experience and contact sections.
-- Keyboard focus styles, skip navigation, native expandable case studies and reduced-motion support.
-- Google Fonts enhance typography; local fallback fonts work if they are unavailable.
+## Featured Work
 
-## Preview locally
+### Delivery Lifecycle Analytics
 
-Open `index.html` in a browser, or serve this directory:
+Analysed workshop operations and delivery performance to identify bottlenecks, monitor KPIs and support operational improvements.
+
+### Backlog Analysis & Reporting Automation
+
+Developed repeatable reporting workflows and analytical insights to support backlog reduction and reduce manual reporting effort.
+
+### RoamFlow — Personal Engineering Project
+
+A travel itinerary planning application currently in development, providing hands-on experience with application architecture, database management and backend development.
+
+**Technology stack:** Python, PostgreSQL, SQLite and Docker.
+
+[View RoamFlow on GitHub](https://github.com/sumeet860/RoamFlow)
+
+## Portfolio Website
+
+A responsive, accessible static website built with HTML and CSS and hosted on GitHub Pages.
+
+To preview locally, open `index.html` in a browser or run:
 
 ```sh
 python -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`.
+Visit http://localhost:8000.
 
-## GitHub Pages
+## Connect
 
-Publish the `main` branch from `/ (root)` in **Settings → Pages**. The homepage is `index.html`; `.nojekyll` keeps the site as plain static files. The link above is the intended Pages address; deployment status should be checked in GitHub Actions / Pages after changes.
-
-## Updates
-
-Edit `index.html` to update content and styling. Keep project status, employment dates and outcome context accurate. This static portfolio replaces the earlier Flask/Heroku implementation; the earlier version remains available in Git history.
-
-## Contact
-
+- [Live Portfolio](https://sumeet860.github.io/Portfolio/)
 - [GitHub](https://github.com/sumeet860)
 - [Email](mailto:singhsumeetkumar5@gmail.com)
+
+---
+
+Professional case studies describe resume-reported outcomes. Confidential employer data and proprietary source code are not included. RoamFlow is an ongoing personal project.
